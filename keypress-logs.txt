@@ -1,0 +1,174 @@
+tail -f plexhometheater.log | grep Key
+23:04:36 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(155)
+# WWW button
+23:04:38 T:1971048448   DEBUG: Keyboard: scancode: ac, sym: 0116, unicode: 0000, modifier: 0
+23:04:38 T:1971048448   DEBUG: OnKey: home (f088) pressed, action is FirstPage
+
+# Close button
+23:04:40 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 100
+23:04:40 T:1971048448   DEBUG: OnKey: alt-leftalt (4f0d4) pressed, action is
+23:04:40 T:1971048448   DEBUG: Keyboard: scancode: 3e, sym: 011d, unicode: 0000, modifier: 100
+23:04:40 T:1971048448   DEBUG: OnKey: alt-f4 (4f093) pressed, action is
+
+# Music button
+23:04:42 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:04:42 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:04:42 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 140
+23:04:42 T:1971048448   DEBUG: OnKey: ctrl-alt-leftalt (5f0d4) pressed, action is
+23:04:42 T:1971048448   DEBUG: Keyboard: scancode: 1e, sym: 0061, unicode: 0061, modifier: 140
+23:04:42 T:1971048448   DEBUG: OnKey: ctrl-alt-a (5f041) pressed, action is
+23:04:42 T:1971048448   DEBUG: Keyboard: scancode: 02, sym: 0031, unicode: 0000, modifier: 140
+23:04:42 T:1971048448   DEBUG: OnKey: ctrl-alt-one (5f031) pressed, action is
+23:04:42 T:1971048448   DEBUG: Keyboard: scancode: 3b, sym: 011a, unicode: 0000, modifier: 140
+23:04:42 T:1971048448   DEBUG: OnKey: ctrl-alt-f1 (5f090) pressed, action is
+
+# Movies button
+23:04:43 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:04:43 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:04:43 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 140
+23:04:43 T:1971048448   DEBUG: OnKey: ctrl-alt-leftalt (5f0d4) pressed, action is
+23:04:43 T:1971048448   DEBUG: Keyboard: scancode: 30, sym: 0062, unicode: 0062, modifier: 140
+23:04:43 T:1971048448   DEBUG: OnKey: ctrl-alt-b (5f042) pressed, action is
+23:04:43 T:1971048448   DEBUG: Keyboard: scancode: 03, sym: 0040, unicode: 0040, modifier: 140
+23:04:43 T:1971048448   DEBUG: OnKey: ctrl-alt-at (5f040) pressed, action is
+23:04:43 T:1971048448   DEBUG: Keyboard: scancode: 3c, sym: 011b, unicode: 0000, modifier: 140
+23:04:43 T:1971048448   DEBUG: OnKey: ctrl-alt-f2 (5f091) pressed, action is
+
+# Photos button
+23:04:44 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:04:44 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:04:44 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 140
+23:04:44 T:1971048448   DEBUG: OnKey: ctrl-alt-leftalt (5f0d4) pressed, action is
+23:04:44 T:1971048448   DEBUG: Keyboard: scancode: 2e, sym: 00a2, unicode: 0000, modifier: 140
+23:04:44 T:1971048448   DEBUG: OnKey: ctrl-alt-164 (5f0a4) pressed, action is
+23:04:44 T:1971048448   DEBUG: Keyboard: scancode: 04, sym: 0033, unicode: 0000, modifier: 140
+23:04:44 T:1971048448   DEBUG: OnKey: ctrl-alt-three (5f033) pressed, action is
+23:04:44 T:1971048448   DEBUG: Keyboard: scancode: 3d, sym: 011c, unicode: 0000, modifier: 140
+23:04:44 T:1971048448   DEBUG: OnKey: ctrl-alt-f3 (5f092) pressed, action is
+
+# TV button (yellow)
+23:04:45 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:04:45 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:04:45 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 140
+23:04:45 T:1971048448   DEBUG: OnKey: ctrl-alt-leftalt (5f0d4) pressed, action is
+23:04:45 T:1971048448   DEBUG: Keyboard: scancode: 20, sym: 0064, unicode: 0064, modifier: 140
+23:04:45 T:1971048448   DEBUG: OnKey: ctrl-alt-d (5f044) pressed, action is
+23:04:45 T:1971048448   DEBUG: Keyboard: scancode: 05, sym: 0024, unicode: 0024, modifier: 140
+23:04:45 T:1971048448   DEBUG: OnKey: ctrl-alt-dollar (5f024) pressed, action is
+23:04:45 T:1971048448   DEBUG: Keyboard: scancode: 3e, sym: 011d, unicode: 0000, modifier: 140
+23:04:45 T:1971048448   DEBUG: OnKey: ctrl-alt-f4 (5f093) pressed, action is
+
+23:04:47 T:1971048448   DEBUG: Keyboard: scancode: a5, sym: 00b1, unicode: 0000, modifier: 0
+23:04:47 T:1971048448   DEBUG: OnKey: prev_track (f0bb) pressed, action is SkipPrevious
+
+23:04:49 T:1971048448   DEBUG: Keyboard: scancode: a3, sym: 00b0, unicode: 0000, modifier: 0
+23:04:49 T:1971048448   DEBUG: OnKey: next_track (f0ba) pressed, action is SkipNext
+
+23:04:51 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(240)
+23:04:51 T:1971048448   DEBUG: Keyboard: scancode: 69, sym: 0114, unicode: 0000, modifier: 0
+23:04:51 T:1971048448   DEBUG: OnKey: left (f082) pressed, action is Left
+23:04:51 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:04:51 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:04:51 T:1971048448   DEBUG: Keyboard: scancode: 2a, sym: 0130, unicode: 0000, modifier: 41
+23:04:51 T:1971048448   DEBUG: OnKey: ctrl-shift-leftshift (3f0d2) pressed, action is
+23:04:51 T:1971048448   DEBUG: Keyboard: scancode: 30, sym: 0042, unicode: 0042, modifier: 41
+23:04:51 T:1971048448   DEBUG: OnKey: ctrl-shift-b (3f042) pressed, action is Rewind
+23:04:51 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(240)
+
+23:04:52 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(240)
+23:04:52 T:1971048448   DEBUG: Keyboard: scancode: 6a, sym: 0113, unicode: 0000, modifier: 0
+23:04:52 T:1971048448   DEBUG: OnKey: right (f083) pressed, action is Right
+23:04:52 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:04:52 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:04:52 T:1971048448   DEBUG: Keyboard: scancode: 2a, sym: 0130, unicode: 0000, modifier: 41
+23:04:52 T:1971048448   DEBUG: OnKey: ctrl-shift-leftshift (3f0d2) pressed, action is
+23:04:52 T:1971048448   DEBUG: Keyboard: scancode: 21, sym: 0046, unicode: 0046, modifier: 41
+23:04:52 T:1971048448   DEBUG: OnKey: ctrl-shift-f (3f046) pressed, action is FastForward
+
+23:04:52 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(240)
+23:04:53 T:1971048448   DEBUG: Keyboard: scancode: a4, sym: 00b3, unicode: 0000, modifier: 0
+23:04:53 T:1971048448   DEBUG: OnKey: play_pause (f0bd) pressed, action is PlayPause
+
+23:04:56 T:1971048448   DEBUG: Keyboard: scancode: a6, sym: 00b2, unicode: 0000, modifier: 0
+23:04:56 T:1971048448   DEBUG: OnKey: stop (f0bc) pressed, action is Stop
+23:04:56 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(240)
+23:04:56 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 100
+23:04:56 T:1971048448   DEBUG: OnKey: alt-leftalt (4f0d4) pressed, action is
+23:04:56 T:1971048448   DEBUG: Keyboard: scancode: 1c, sym: 000d, unicode: 0000, modifier: 100
+23:04:56 T:1971048448   DEBUG: OnKey: alt-return (4f00d) pressed, action is
+23:04:56 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 140
+23:04:56 T:1971048448   DEBUG: OnKey: ctrl-alt-leftctrl (5f0d0) pressed, action is
+23:04:56 T:1971048448   DEBUG: Keyboard: scancode: 04, sym: 0033, unicode: 0033, modifier: 40
+23:04:56 T:1971048448   DEBUG: OnKey: ctrl-three (1f033) pressed, action is
+23:04:56 T:1971048448   DEBUG: CLinuxInputDevice::KeyEvent: TranslateKey returned XBMCK_UNKNOWN from code(240)
+
+23:04:57 T:1971048448   DEBUG: Keyboard: scancode: 71, sym: 00ad, unicode: 0000, modifier: 0
+23:04:57 T:1971048448   DEBUG: OnKey: volume_mute (f0b7) pressed, action is Mute
+
+23:04:59 T:1971048448   DEBUG: Keyboard: scancode: 72, sym: 00ae, unicode: 0000, modifier: 0
+23:04:59 T:1971048448   DEBUG: OnKey: volume_down (f0b8) pressed, action is VolumeDown
+
+23:05:00 T:1971048448   DEBUG: Keyboard: scancode: 73, sym: 00af, unicode: 0000, modifier: 0
+23:05:00 T:1971048448   DEBUG: OnKey: volume_up (f0b9) pressed, action is VolumeUp
+
+23:05:04 T:1971048448   DEBUG: Keyboard: scancode: 0f, sym: 0009, unicode: 0009, modifier: 0
+23:05:04 T:1971048448   DEBUG: OnKey: tab (f009) pressed, action is FullScreen
+
+23:05:05 T:1971048448   DEBUG: Keyboard: scancode: 67, sym: 0111, unicode: 0000, modifier: 0
+23:05:05 T:1971048448   DEBUG: OnKey: up (f080) pressed, action is Up
+
+# Windows key
+23:05:07 T:1971048448   DEBUG: Keyboard: scancode: 7e, sym: 0135, unicode: 0000, modifier: 800
+23:05:07 T:1971048448   DEBUG: OnKey: 0 (f200) pressed, action is
+
+23:05:11 T:1971048448   DEBUG: Keyboard: scancode: 0e, sym: 0008, unicode: 0008, modifier: 0
+23:05:11 T:1971048448   DEBUG: OnKey: backspace (f008) pressed, action is Back
+
+23:05:14 T:1971048448   DEBUG: Keyboard: scancode: 69, sym: 0114, unicode: 0000, modifier: 0
+23:05:14 T:1971048448   DEBUG: OnKey: left (f082) pressed, action is Left
+
+23:05:15 T:1971048448   DEBUG: Keyboard: scancode: 1c, sym: 000d, unicode: 0000, modifier: 0
+23:05:15 T:1971048448   DEBUG: OnKey: return (f00d) pressed, action is Select
+23:05:15 T:1971048448   ERROR: Keymapping error: no such action 'skinsetstring(settingscategory,appearance)' defined
+
+23:05:17 T:1971048448   DEBUG: Keyboard: scancode: 6a, sym: 0113, unicode: 0000, modifier: 0
+23:05:17 T:1971048448   DEBUG: OnKey: right (f083) pressed, action is Right
+
+23:05:20 T:1971048448   DEBUG: Keyboard: scancode: 68, sym: 0118, unicode: 0000, modifier: 0
+23:05:20 T:1971048448   DEBUG: OnKey: pageup (f084) pressed, action is PageUp
+
+# File / folder button
+23:05:21 T:1971048448   DEBUG: Keyboard: scancode: 1d, sym: 0132, unicode: 0000, modifier: 40
+23:05:21 T:1971048448   DEBUG: OnKey: ctrl-leftctrl (1f0d0) pressed, action is
+23:05:21 T:1971048448   DEBUG: Keyboard: scancode: 18, sym: 006f, unicode: 006f, modifier: 40
+23:05:21 T:1971048448   DEBUG: OnKey: ctrl-o (1f04f) pressed, action is
+23:05:24 T:1971048448   ERROR: Couldn't load font name: KeyboardFocusFont(Arial), trying to substitute arial.ttf
+23:05:24 T:1971048448   ERROR: Couldn't load font name: KeyboardFocusCapsFont(Arial), trying to substitute arial.ttf
+23:05:29 T:1971048448   ERROR: Keymapping error: no such action 'skinsetstring(settingscategory,appearance)' defined
+
+23:05:29 T:1971048448   DEBUG: Keyboard: scancode: 6c, sym: 0112, unicode: 0000, modifier: 0
+23:05:29 T:1971048448   DEBUG: OnKey: down (f081) pressed, action is Down
+
+23:05:31 T:1971048448   DEBUG: Keyboard: scancode: 01, sym: 001b, unicode: 001b, modifier: 0
+23:05:31 T:1971048448   DEBUG: OnKey: escape (f01b) pressed, action is ParentDir
+
+23:05:33 T:1971048448   DEBUG: Keyboard: scancode: 6d, sym: 0119, unicode: 0000, modifier: 0
+23:05:33 T:1971048448   DEBUG: OnKey: pagedown (f085) pressed, action is PageDown
+
+# Multi-windows icon
+23:05:37 T:1971048448   DEBUG: Keyboard: scancode: 38, sym: 0134, unicode: 0000, modifier: 100
+23:05:37 T:1971048448   DEBUG: OnKey: alt-leftalt (4f0d4) pressed, action is
+23:05:37 T:1971048448   DEBUG: Keyboard: scancode: 0f, sym: 0009, unicode: 0009, modifier: 100
+23:05:37 T:1971048448   DEBUG: OnKey: alt-tab (4f009) pressed, action is
+
+#My PC
+23:05:39 T:1971048448   DEBUG: Keyboard: scancode: 7d, sym: 0136, unicode: 0000, modifier: 400
+23:05:39 T:1971048448   DEBUG: OnKey: 0 (f200) pressed, action is
+23:05:39 T:1971048448   DEBUG: Keyboard: scancode: 12, sym: 0065, unicode: 0000, modifier: 400
+23:05:39 T:1971048448   DEBUG: OnKey: e (f045) pressed, action is
+
+# Desktop
+23:05:48 T:1971048448   DEBUG: Keyboard: scancode: 7d, sym: 0136, unicode: 0000, modifier: 400
+23:05:48 T:1971048448   DEBUG: OnKey: 0 (f200) pressed, action is
+23:05:48 T:1971048448   DEBUG: Keyboard: scancode: 20, sym: 0064, unicode: 0000, modifier: 400
+23:05:48 T:1971048448   DEBUG: OnKey: d (f044) pressed, action is

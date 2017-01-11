@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <!-- WWW button sends home; map to Guide on Logitech-->
+      <home>ActivateWindow(Home)</home>
+
+      <!-- Close button sends Alt-f4; map to Power off on Logitech -->
+      <f4 mod="alt">ShutDown()</f4>
+
+      <!-- Music button sends Ctrl-Alt-F1 -->
+      <!-- Movies button sends Ctrl-Alt-F2 -->
+      <!-- Photos button sends Ctrl-Alt-F3 -->
+      <!-- TV button sends Ctrl-Alt-F4 -->
+
+      <!-- File folder button sends ctrl-leftctrl,ctrl-o; map to screen button on Logitech-->
+      <o mod="ctrl">Menu</o>
+
+      <!-- Multi-window switcher button sends alt-leftalt,alt-tab; map to Info on Logitech -->
+      <tab mod="alt">Info</tab>
+      <i>Info</i>
+
+      <!-- My PC button sends 0,e; map to Menu on Logitech-->
+      <e>ContextMenu</e>
+      <menu>ContextMenu</menu>
+      <c>ContextMenu</c>
+
+      <!-- Desktop button sends 0,d; map to custom on Logitech-->
+      <d>ActivateWindow(shutdownmenu)</d>
+      <s>ActivateWindow(shutdownmenu)</s>
+      <power>ActivateWindow(shutdownmenu)</power>
+      <sleep>ActivateWindow(shutdownmenu)</sleep>
+
+      <!-- General settings -->
+      <left>Left</left>
+      <right>Right</right>
+      <up>Up</up>
+      <down>Down</down>
+      <pageup>PageUp</pageup>
+      <pagedown>PageDown</pagedown>
+      <return>Select</return>
+      <enter>Select</enter>
+      <backspace>Back</backspace>
+      <key id='65446'>Back</key>
+      <escape>ParentDir</escape>
+      <tab>FullScreen</tab>
+
+      <volume_mute>Mute</volume_mute>
+      <volume_down>VolumeDown</volume_down>
+      <volume_up>VolumeUp</volume_up>
+      <next_track>SkipNext</next_track>
+      <prev_track>SkipPrevious</prev_track>
+      <stop>Stop</stop>
+      <play_pause>PlayPause</play_pause>
+      <fastforward>FastForward</fastforward>
+      <rewind>Rewind</rewind>
+
+      <left mod="ctrl">analogseekback</left>
+      <right mod="ctrl">analogseekforward</right>
+
+      <space>Pause</space>
+      <x>Stop</x>
+      <period>SkipNext</period>
+      <comma>SkipPrevious</comma>
+      <minus>VolumeDown</minus>
+      <plus>VolumeUp</plus>
+      <equals>VolumeUp</equals>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
+      <numpadminus>VolumeDown</numpadminus>
+      <numpadplus>VolumeUp</numpadplus>
+      <numpadzero>Number0</numpadzero>
+      <numpadone>Number1</numpadone>
+      <numpadtwo>Number2</numpadtwo>
+      <numpadthree>Number3</numpadthree>
+      <numpadfour>Number4</numpadfour>
+      <numpadfive>Number5</numpadfive>
+      <numpadsix>Number6</numpadsix>
+      <numpadseven>Number7</numpadseven>
+      <numpadeight>Number8</numpadeight>
+      <numpadnine>Number9</numpadnine>
+      <backslash>ToggleFullScreen</backslash>
+      <end>LastPage</end>
+
+      <!-- ****************************************************** -->
+      <!-- MS Media Center keyboard shortcuts sent by MCE remotes -->
+      <!-- See http://msdn.microsoft.com/en-us/library/bb189249.aspx -->
+      <p mod="ctrl,shift">Play</p>        <!-- Play -->
+      <s mod="ctrl,shift">Stop</s>        <!-- Stop -->
+      <p mod="ctrl">Pause</p>             <!-- Pause -->
+      <f mod="ctrl,shift">FastForward</f> <!-- Fwd -->
+      <b mod="ctrl,shift">Rewind</b>      <!-- Rew -->
+      <f mod="ctrl">SkipNext</f>          <!-- Skip -->
+      <b mod="ctrl">SkipPrevious</b>      <!-- Replay -->
+      <d mod="ctrl">Info</d>              <!-- MCE Details -->
+      <r mod="ctrl">Record</r>            <!-- Record -->
+      <f10>VolumeUp</f10>                 <!-- MCE Vol up -->
+      <f9>VolumeDown</f9>                 <!-- MCE Vol down -->
+      <f8>Mute</f8>                       <!-- MCE mute -->
+      <g mod="ctrl">ActivateWindow(TVGuide)</g>  <!-- MCE Guide -->
+      <m mod="ctrl">ActivateWindow(music)</m>    <!-- MCE My music -->
+      <i mod="ctrl">ActivateWindow(pictures)</i> <!-- MCE My pictures -->
+      <e mod="ctrl">ActivateWindow(video)</e>    <!-- MCE videos -->
+      <m mod="ctrl,shift">PlayerControl(ShowVideoMenu)</m>         <!-- MCE DVD menu -->
+      <!-- <o mod="ctrl">ActivateWindow(TVRecordings)</o>  MCE Recorded TV -->
+      <t mod="ctrl">ActivateWindow(TVChannels)</t>  <!-- MCE Live TV  -->
+      <t mod="ctrl,shift">ActivateWindow(TVChannels)</t>  <!-- MCE My TV -->
+      <a mod="ctrl">ActivateWindow(RadioChannels)</a>  <!-- MCE My Radio -->
+      <!-- MCE keypresses without an obvious use in XBMC -->
+      <u mod="ctrl">Notification(MCEKeypress, DVD subtitle, 3)</u>
+      <a mod="ctrl,shift">Notification(MCEKeypress, DVD audio, 3)</a>
+      <k mod="ctrl,shift">ReloadKeymaps</k>
+      <d mod="ctrl,shift">ToggleDebug</d>
+      <r mod="ctrl,shift">ToggleDirtyRegionVisualization</r>
+    </keyboard>
+  </global>
+  <LoginScreen>
+    <keyboard>
+      <end mod="ctrl">ShutDown()</end>
+    </keyboard>
+  </LoginScreen>
+  <Home>
+    <keyboard>
+      <i>info</i>
+      <end mod="ctrl">ShutDown()</end>
+    </keyboard>
+  </Home>
+  <VirtualKeyboard>
+    <keyboard>
+      <left>Left</left>
+      <right>Right</right>
+      <up>Up</up>
+      <down>Down</down>
+      <return>Select</return>
+      <enter>Select</enter>
+      <backspace>Backspace</backspace>
+      <browser_back>Backspace</browser_back>
+    </keyboard>
+  </VirtualKeyboard>
+  <FullscreenVideo>
+    <keyboard>
+      <f>FastForward</f>
+      <r>Rewind</r>
+      <period>StepForward</period>
+      <comma>StepBack</comma>
+      <backspace>Fullscreen</backspace>
+      <browser_back>Fullscreen</browser_back>
+      <quote>Seek(-7)</quote> <!-- Replaces smallstepback -->
+      <opensquarebracket>BigStepForward</opensquarebracket>
+      <closesquarebracket>BigStepBack</closesquarebracket>
+      <return>OSD</return>
+      <enter>OSD</enter>
+      <m>OSD</m>
+      <menu>OSD</menu>
+      <tab mod="alt">Info</tab>
+      <i>Info</i>
+      <o>CodecInfo</o>
+      <z>AspectRatio</z>
+      <zoom>AspectRatio</zoom>
+      <t>ShowSubtitles</t>
+      <t mod="ctrl">SubtitleAlign</t>
+      <l>NextSubtitle</l>
+      <left>StepBack</left>
+      <right>StepForward</right>
+      <up>ChapterOrBigStepForward</up>
+      <down>ChapterOrBigStepBack</down>
+      <a>AudioDelay</a>
+      <escape>Fullscreen</escape>
+      <c>Playlist</c>
+      <v>ActivateWindow(Teletext)</v>
+      <text>ActivateWindow(Teletext)</text>
+      <up mod="ctrl">SubtitleShiftUp</up>
+      <down mod="ctrl">SubtitleShiftDown</down>
+      <pageup>SkipNext</pageup>
+      <pagedown>SkipPrevious</pagedown>
+    </keyboard>
+  </FullscreenVideo>
+  <VideoTimeSeek>
+    <keyboard>
+      <return>Select</return>
+      <enter>Select</enter>
+    </keyboard>
+  </VideoTimeSeek>
+  <FullscreenInfo>
+    <keyboard>
+      <f>FastForward</f>
+      <r>Rewind</r>
+      <period>StepForward</period>
+      <o>CodecInfo</o>
+      <i>Back</i>
+      <d mod="ctrl">Back</d>
+      <m>OSD</m>
+      <menu>OSD</menu>
+    </keyboard>
+  </FullscreenInfo>
+  <PlayerControls>
+    <keyboard>
+      <m mod="ctrl">Back</m>
+    </keyboard>
+  </PlayerControls>
+  <MusicOSD>
+    <keyboard>
+      <f>FastForward</f>
+      <r>Rewind</r>
+      <period>SkipNext</period>
+      <comma>SkipPrevious</comma>
+      <m>Back</m>
+      <menu>Back</menu>
+      <i>Info</i>
+      <o>CodecInfo</o>
+      <p>ActivateWindow(VisualisationPresetList)</p>
+      <v>Addon.Default.OpenSettings(xbmc.player.musicviz)</v>
+      <text>Addon.Default.OpenSettings(xbmc.player.musicviz)</text>
+      <n>ActivateWindow(MusicPlaylist)</n>
+    </keyboard>
+  </MusicOSD>
+  <ScreenCalibration>
+    <keyboard>
+      <return>NextCalibration</return>
+      <enter>NextCalibration</enter>
+      <d>ResetCalibration</d>
+      <r>NextResolution</r>
+    </keyboard>
+  </ScreenCalibration>
+  <GUICalibration>
+    <keyboard>
+      <return>NextCalibration</return>
+      <enter>NextCalibration</enter>
+      <d>ResetCalibration</d>
+    </keyboard>
+  </GUICalibration>
+  <VideoOSD>
+    <keyboard>
+      <m>Back</m>
+      <menu>Back</menu>
+      <g mod="ctrl">Back</g> <!-- MCE Guide button -->
+      <i>Info</i>
+      <o>CodecInfo</o>
+    </keyboard>
+  </VideoOSD>
+  <VideoMenu>
+    <keyboard>
+      <opensquarebracket>BigStepForward</opensquarebracket>
+      <closesquarebracket>BigStepBack</closesquarebracket>
+      <m>OSD</m>
+      <menu>OSD</menu>
+      <i>Info</i>
+      <o>CodecInfo</o>
+      <z>AspectRatio</z>
+      <zoom>AspectRatio</zoom>
+      <t>ShowSubtitles</t>
+      <l>NextSubtitle</l>
+      <a>AudioDelay</a>
+      <escape>Fullscreen</escape>
+      <return>Select</return>
+      <enter>Select</enter>      <!-- backspace>Fullscreen</backspace -->
+      <pageup>SkipNext</pageup>
+      <pagedown>SkipPrevious</pagedown>
+    </keyboard>
+  </VideoMenu>
+  <OSDVideoSettings>
+    <keyboard>
+      <i>Info</i>
+      <o>CodecInfo</o>
+    </keyboard>
+  </OSDVideoSettings>
+  <OSDAudioSettings>
+    <keyboard>
+      <i>Info</i>
+      <o>CodecInfo</o>
+    </keyboard>
+  </OSDAudioSettings>
+  <ContextMenu>
+    <keyboard>
+      <c>Back</c>
+      <menu>Back</menu>
+    </keyboard>
+  </ContextMenu>
+  <Favourites>
+    <keyboard>
+      <backspace>Close</backspace>
+      <browser_back>Close</browser_back>
+      <u>MoveItemUp</u>
+      <d>MoveItemDown</d>
+    </keyboard>
+  </Favourites>
+  <NumericInput>
+    <keyboard>
+      <backspace>Close</backspace>
+      <browser_back>Close</browser_back>
+    </keyboard>
+  </NumericInput>
+  <FileBrowser>
+    <keyboard>
+      <space>Highlight</space>
+    </keyboard>
+  </FileBrowser>
+  <ShutdownMenu>
+    <keyboard>
+      <s>Back</s>
+    </keyboard>
+  </ShutdownMenu>
+</keymap>
