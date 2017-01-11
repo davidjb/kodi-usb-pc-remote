@@ -9,13 +9,14 @@ like this:
 control](https://raw.githubusercontent.com/davidjb/plex-usb-pc-remote/master/remote.jpg)
 
 They can be had for around $5 AUD on
-[eBay](www.ebay.com.au/itm/Remote-Infrared-Ray-Control-Controller-Wireless-PC-USB-Windows-Media-Center-/381210067916)
+[eBay](https://www.ebay.com.au/itm/Remote-Infrared-Ray-Control-Controller-Wireless-PC-USB-Windows-Media-Center-/381210067916)
 and other disreputable marketplaces.
 
 ## Install
 
-The `pc-remote.xml` file should be installed on RasPlex in this
-location:
+The
+[`pc-remote.xml`](https://github.com/davidjb/plex-usb-pc-remote/blob/master/pc-remote.xml)
+file should be installed on RasPlex in this location:
 
     /storage/.plexht/userdata/keymaps/pc-remote.xml
 
