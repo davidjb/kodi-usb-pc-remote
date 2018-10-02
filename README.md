@@ -21,7 +21,7 @@ file should be installed on RasPlex in this location:
     /storage/.plexht/userdata/keymaps/pc-remote.xml
 
 You'll have to adjust the path for use with Kodi / XBMC and so on.  Also, the
-file can actually be named `anything.xml`, providing it is in that directory.
+file can actually be named `anything.xml`, providing it is in the keymaps directory.
 
 ## Use with a Logitech remote
 
