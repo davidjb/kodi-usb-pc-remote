@@ -1,12 +1,11 @@
-# Generic "PC Remote" support for HTPC software
+# Generic "PC Remote" support for Kodi & related HTPC software
 
 ## Huh?
 
-This is support for RasPlex or its cousins for USB remote controls that look
+This is support for Kodi or its cousins for USB remote controls that look
 like this:
 
-![Remote
-control](https://raw.githubusercontent.com/davidjb/plex-usb-pc-remote/master/remote.jpg)
+![Remote control](remote.jpg)
 
 They can be had for around $5 AUD on
 [eBay](https://www.ebay.com.au/itm/Remote-Infrared-Ray-Control-Controller-Wireless-PC-USB-Windows-Media-Center-/381210067916)
@@ -16,11 +15,11 @@ and other disreputable marketplaces.
 
 The
 [`pc-remote.xml`](https://github.com/davidjb/plex-usb-pc-remote/blob/master/pc-remote.xml)
-file should be installed on RasPlex in this location:
+file should be installed on Kodi (on LibreELEC) here:
 
-    /storage/.plexht/userdata/keymaps/pc-remote.xml
+    /storage/.kodi/userdata/keymaps/pc-remote.xml
 
-You'll have to adjust the path for use with Kodi / XBMC and so on.  Also, the
+You'll have to adjust the path for use with any other install flavours.  Also, the
 file can actually be named `anything.xml`, providing it is in the keymaps directory.
 
 ## Use with a Logitech remote
@@ -37,6 +36,4 @@ default Plex keyboard configuration for a Media Centre remote.
 
 ## More info
 
-* <https://github.com/RasPlex/RasPlex/wiki/Remote-Controls>
 * <http://kodi.wiki/view/HOW-TO:Modify_keyboard.xml#Where_to_find_keyboard.xml>
-
