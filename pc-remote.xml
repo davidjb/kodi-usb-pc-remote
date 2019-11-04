@@ -2,6 +2,9 @@
 <keymap>
   <global>
     <keyboard>
+      <!-- Start button sends meta-rightwindows; map to + (plus sign) on Logitech -->
+      <rightwindows mod="meta">RunScript(script.audio.profiles,0)</rightwindows>
+
       <!-- WWW button sends home; map to Guide on Logitech-->
       <home>ActivateWindow(Home)</home>
 
@@ -22,6 +25,7 @@
 
       <!-- My PC button sends 0,e; map to Menu on Logitech-->
       <e>ContextMenu</e>
+      <e mod="meta">ContextMenu</e>
       <menu>ContextMenu</menu>
       <c>ContextMenu</c>
 

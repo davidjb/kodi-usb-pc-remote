@@ -22,6 +22,10 @@ file should be installed on Kodi (on LibreELEC) here:
 You'll have to adjust the path for use with any other install flavours.  Also, the
 file can actually be named `anything.xml`, providing it is in the keymaps directory.
 
+### Dependencies
+
+* Toggling audio profiles requires this add-on: https://forum.kodi.tv/showthread.php?tid=200081
+
 ## Use with a Logitech remote
 
 The Logitech Remote control was customised to send different signals and
